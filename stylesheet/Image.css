@@ -1,0 +1,15 @@
+.img-container{
+  margin-left:800px;
+  background-attachment:fixed;
+  height:1000px;
+  width: 600px;
+  
+  
+}
+
+img{
+background-attachment:fixed;
+position:relative;
+height: 350px;
+border-radius:10%;
+}

@@ -1,0 +1,22 @@
+.text-container{
+  margin-top:100px;
+  margin-left:40px;
+}
+
+.text{
+  font-size: 40px;
+  font-weight: bold;
+  font-family:'arial';
+  color:whitesmoke;
+}
+
+#g-text{
+  color: red;
+  font-size: 42px;
+  font-weight: bold;
+  font-family:'arial';
+}
+
+.t-text{
+  color: red;
+}
