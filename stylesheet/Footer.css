@@ -1,0 +1,142 @@
+/* Footer Container */
+.footer {
+  background-color:white;
+  color: white;
+  padding: 15px 8px;
+  text-align: center;
+  position: relative;
+  top:300px;
+  bottom: 0px;
+  width: 100%;
+}
+
+/* Footer Content */
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Footer Title */
+.footer-title {
+  color:black;
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+/* Footer Description */
+.footer-description {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+/* Social Media Icons */
+.social-media {
+  margin-bottom: 40px;
+}
+
+.social-icon {
+  color: white;
+  font-size: 1.5rem;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-icon:hover {
+  color: #f39c12; /* Highlight color on hover */
+}
+
+/* Contact Info */
+.contact-info {
+  font-size: 1rem;
+}
+
+.contact-info a {
+  color: #f39c12; /* Highlight color for links */
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .footer-title {
+    font-size: 1.75rem;
+  }
+
+  .footer-description {
+    font-size: 1rem;
+  }
+
+  .social-icon {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .footer-title {
+    font-size: 1.5rem;
+  }
+
+  .footer-description {
+    font-size: 0.95rem;
+  }
+
+  .social-icon {
+    font-size: 1.3rem;
+    margin: 0 8px;
+  }
+
+  .contact-info {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 30px 15px;
+  }
+
+  .footer-title {
+    font-size: 1.25rem;
+  }
+
+  .footer-description {
+    font-size: 0.9rem;
+  }
+
+  .social-icon {
+    font-size: 1.2rem;
+    margin: 0 6px;
+  }
+
+  .contact-info {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 20px 10px;
+  }
+
+  .footer-title {
+    font-size: 1rem;
+  }
+
+  .footer-description {
+    font-size: 0.85rem;
+    margin-bottom: 15px;
+  }
+
+  .social-icon {
+    font-size: 1rem;
+    margin: 0 5px;
+  }
+
+  .contact-info {
+    font-size: 0.85rem;
+  }
+}

@@ -1,0 +1,212 @@
+/* Existing Styles */
+
+/* About Container */
+.about-container {
+  padding: 40px;
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-header h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+.about-header p {
+  font-size: 18px;
+  color: #666;
+}
+
+.about-content {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.teacher-profile {
+  text-align: center;
+}
+
+.teacher-image {
+  width: 260px;
+  height: 220px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 5px solid #007bff;
+}
+
+.teacher-profile h2 {
+  font-size: 28px;
+  color: #333;
+}
+
+.teacher-subtitle {
+  font-size: 18px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.education-achievements {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.education, .achievements {
+  flex: 1;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.education h3, .achievements h3 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.education ul, .achievements ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.education ul li, .achievements ul li {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.skills {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.skills h3 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.skills p {
+  font-size: 16px;
+  color: #444;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .about-content {
+    padding: 15px; /* Reduce padding for smaller screens */
+  }
+
+  .teacher-image {
+    width: 220px;
+    height: 200px;
+  }
+
+  .education, .achievements {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 992px) {
+  .about-container {
+    padding: 20px; /* Reduce padding for medium screens */
+  }
+
+  .about-header h1 {
+    font-size: 30px;
+  }
+
+  .about-header p {
+    font-size: 16px;
+  }
+
+  .teacher-image {
+    width: 200px;
+    height: 180px;
+  }
+
+  .education, .achievements {
+    padding: 10px;
+  }
+
+  .education-achievements {
+    flex-direction: column; /* Stack education and achievements vertically */
+    gap: 10px; /* Adjust gap */
+  }
+}
+
+@media (max-width: 768px) {
+  .about-header h1 {
+    font-size: 24px;
+  }
+
+  .about-header p {
+    font-size: 14px;
+  }
+
+  .teacher-profile h2 {
+    font-size: 24px;
+  }
+
+  .teacher-subtitle {
+    font-size: 16px;
+  }
+
+  .education, .achievements {
+    padding: 8px;
+  }
+
+  .skills {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-container {
+    padding: 10px; /* Further reduce padding for very small screens */
+  }
+
+  .about-header h1 {
+    font-size: 20px;
+  }
+
+  .about-header p {
+    font-size: 12px;
+  }
+
+  .teacher-image {
+    width: 180px;
+    height: 160px;
+  }
+
+  .teacher-profile h2 {
+    font-size: 20px;
+  }
+
+  .teacher-subtitle {
+    font-size: 14px;
+  }
+
+  .education, .achievements {
+    padding: 5px;
+  }
+
+  .skills {
+    padding: 8px;
+  }
+}

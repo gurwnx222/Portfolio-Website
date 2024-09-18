@@ -1,15 +1,66 @@
-.img-container{
-  margin-left:800px;
-  background-attachment:fixed;
-  height:1000px;
-  width: 600px;
-  
-  
+/* Existing Styles */
+
+/* Container for the images */
+.img-container {
+  margin-top: 170px;
+  float: left;
+  margin-right: 20px; /* Adjust as necessary */
 }
 
-img{
-background-attachment:fixed;
-position:relative;
-height: 350px;
-border-radius:10%;
+.img-container2 {
+  margin-top: 170px;
+  float: right;
+  margin-left: 20px; /* Adjust as necessary */
+}
+
+/* Common styles for images */
+img {
+  height: 350px;
+  border-radius: 10%;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .img-container,
+  .img-container2 {
+    margin-top: 80px; /* Reduce top margin for tablets */
+    margin-right: 10px; /* Adjust right margin */
+    margin-left: 10px; /* Adjust left margin */
+  }
+
+  img {
+    height: 300px; /* Adjust image height for tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .img-container,
+  .img-container2 {
+    margin-top: 60px; /* Further reduce top margin for small tablets */
+    margin-right: 5px; /* Adjust right margin */
+    margin-left: 5px; /* Adjust left margin */
+    float: none; /* Remove float to stack images */
+    display: block; /* Ensure images stack vertically */
+    text-align: center; /* Center-align images */
+  }
+
+  img {
+    height: 250px; /* Adjust image height for small tablets */
+    width: 100%; /* Make images responsive */
+    object-fit: cover; /* Ensure aspect ratio is preserved */
+  }
+}
+
+@media (max-width: 480px) {
+  .img-container,
+  .img-container2 {
+    margin-top: 40px; /* Further reduce top margin for mobile */
+    margin-right: 2px; /* Adjust right margin */
+    margin-left: 2px; /* Adjust left margin */
+  }
+
+  img {
+    height: 200px; /* Further adjust image height for mobile */
+    width: 100%; /* Ensure images take full width */
+  }
 }

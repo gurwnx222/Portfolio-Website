@@ -1,22 +1,71 @@
-.text-container{
-  margin-top:100px;
-  margin-left:40px;
+/* Existing Styles */
+
+.text-container {
+  margin-top: 120px;
+  margin-left: 40px;
 }
 
-.text{
+.text {
   font-size: 40px;
   font-weight: bold;
-  font-family:'arial';
-  color:whitesmoke;
+  font-family: 'arial';
+  color: whitesmoke;
 }
 
-#g-text{
+#g-text {
   color: red;
   font-size: 42px;
   font-weight: bold;
-  font-family:'arial';
+  font-family: 'arial';
 }
 
-.t-text{
+.t-text {
   color: red;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 1024px) {
+  .text-container {
+    margin-top: 80px; /* Reduce top margin for tablets */
+    margin-left: 20px; /* Reduce left margin for tablets */
+  }
+
+  .text {
+    font-size: 35px; /* Adjust font size for tablets */
+  }
+
+  #g-text {
+    font-size: 36px; /* Adjust font size for tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .text-container {
+    margin-top: 60px; /* Further reduce top margin for smaller screens */
+    margin-left: 10px; /* Further reduce left margin for smaller screens */
+  }
+
+  .text {
+    font-size: 30px; /* Further adjust font size for smaller screens */
+  }
+
+  #g-text {
+    font-size: 32px; /* Further adjust font size for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .text-container {
+    margin-top: 40px; /* Further reduce top margin for mobile screens */
+    margin-left: 5px; /* Further reduce left margin for mobile screens */
+  }
+
+  .text {
+    font-size: 24px; /* Further adjust font size for mobile screens */
+  }
+
+  #g-text {
+    font-size: 26px; /* Further adjust font size for mobile screens */
+  }
 }

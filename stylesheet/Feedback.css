@@ -1,0 +1,113 @@
+/* General Form Styles */
+form {
+  max-width: 600px;
+  margin:  700px 40px auto; /* Margin on top and bottom for better spacing */
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.header-text{
+  font-size:30px;
+  font-weight:bold;
+  font-family: 'arial';
+  color:black;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+  height: 150px;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Status Message Styles */
+.status-message {
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.status-message.success {
+  color: #28a745; /* Green color for success messages */
+}
+
+.status-message.error {
+  color: #dc3545; /* Red color for error messages */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  form {
+    padding: 15px;
+    margin: 20px auto; /* Adjust margin for tablets */
+  }
+
+  h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  input[type="submit"] {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  form {
+    padding: 10px;
+    margin: 10px auto; /* Adjust margin for mobile screens */
+  }
+
+  h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  input[type="submit"] {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+}
