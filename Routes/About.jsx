@@ -36,7 +36,7 @@ const About = () => {
           <div className="skills">
             <h3>Skills</h3>
             <p>
-              Expertise in programming languages (Python, php),Msexcel,Msword,coreldrwaw,adobe,tally,etc.
+              Expertise in programming languages (Python,  php), Ms-excel, Ms-word, coreldraw, adobe, tally, etc.
               Passionate about hands-on teaching and fostering student engagement through innovative methods.
             </p>
           </div>

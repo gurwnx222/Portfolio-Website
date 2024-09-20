@@ -32,7 +32,7 @@ const RollNo = () => {
 
   return (
     <div className="container">
-      <h1 className="header">Roll Number Info and Certificate</h1>
+      <h1 className="header">Registration number</h1>
       <div className="input-group">
         <input
           type="text"

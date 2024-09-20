@@ -8,7 +8,6 @@ form {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
 }
-
 .header-text{
   font-size:30px;
   font-weight:bold;
@@ -48,20 +47,51 @@ textarea {
 }
 
 input[type="submit"] {
-  background-color: #007bff;
-  color: #ffffff;
-  border: none;
-  padding: 12px 20px;
-  font-size: 16px;
+  margin-left: 14rem;
+  align-items: center;
+  appearance: none;
+  background-color: #EEF2FF;
+  border-radius: 8px;
+  border-width: 2px;
+  border-color: #536DFE;
+  box-shadow: rgba(83, 109, 254, 0.2) 0 2px 4px, rgba(83, 109, 254, 0.15) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #536DFE;
   cursor: pointer;
-  border-radius: 4px;
-  transition: background-color 0.3s;
+  display: inline-flex;
+  font-family: "JetBrains Mono", monospace;
+  height: 50px;
+  width: 70px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 24px;
+  padding-right: 24px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 20px;
 }
 
+input[type="submit"]:focus {
+  outline: none;
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(83, 109, 254, 0.4) 0 2px 4px, rgba(83, 109, 254, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+input[type="submit"]:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
 input[type="submit"]:hover {
-  background-color: #0056b3;
+   box-shadow: rgba(83, 109, 254, 0.3) 0 4px 8px, rgba(83, 109, 254, 0.2) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
 }
-
 /* Status Message Styles */
 .status-message {
   margin-top: 20px;
